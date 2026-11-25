@@ -40,7 +40,7 @@
 An architecture I build for enterprise agentic workflows:
 
 ```mermaid
-%%{init: {"theme": "base", "flowchart": {"curve": "basis"}, "themeVariables": {"edgeLabelBackground": "#0F172A", "textColor": "#F8FAFC", "primaryTextColor": "#F8FAFC", "lineColor": "#38BDF8"}}}%%
+%%{init: {"theme": "base", "layout": "dagre", "flowchart": {"curve": "basis"}, "themeVariables": {"edgeLabelBackground": "#0F172A", "textColor": "#F8FAFC", "primaryTextColor": "#F8FAFC", "lineColor": "#38BDF8"}}}%%
 flowchart LR
     A["🤖 Agents & developers"] --> S["🔒 Sandboxed workflows"]
     S --> B{"🛡️ Governance & guardrails"}
