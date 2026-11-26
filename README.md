@@ -20,15 +20,15 @@
   <tr>
     <td width="33%" valign="top">
       <h4>🌐 AI Systems</h4>
-      <p>AI gateways with <strong>semantic caching</strong>, dynamic routing, and local LLMs.</p>
+      <p>AI gateways with <strong>semantic caching</strong>, dynamic routing, and local LLMs.<br /><br /></p>
     </td>
     <td width="33%" valign="top">
       <h4>🛡️ AI at Scale</h4>
-      <p><strong>5,000+ developer machines</strong> covered by AI policy, guardrails, and audit trails.</p>
+      <p><strong>5,000+ developer machines</strong> covered by AI policy, guardrails, and audit trails.<br /><br /></p>
     </td>
     <td width="33%" valign="top">
       <h4>🔀 AI Agents</h4>
-      <p><strong>Isolated agents</strong> and LLM bots for <strong>30+</strong> workflows.</p>
+      <p><strong>Isolated agents</strong> and LLM bots for <strong>30+</strong> workflows.<br /><br /></p>
     </td>
   </tr>
 </table>
