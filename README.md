@@ -40,18 +40,18 @@
 An architecture I build for enterprise agentic workflows:
 
 ```mermaid
-%%{init: {"theme": "base", "layout": "dagre", "flowchart": {"curve": "basis"}, "themeVariables": {"edgeLabelBackground": "#0F172A", "textColor": "#F8FAFC", "primaryTextColor": "#F8FAFC", "lineColor": "#38BDF8"}}}%%
+%%{init: {"theme": "base", "look": "classic", "layout": "dagre", "htmlLabels": false, "flowchart": {"curve": "basis", "padding": 18, "nodeSpacing": 35, "rankSpacing": 40, "wrappingWidth": 200}, "themeVariables": {"fontFamily": "Arial, sans-serif", "fontSize": "18px", "edgeLabelBackground": "#0F172A", "textColor": "#F8FAFC", "primaryTextColor": "#F8FAFC", "lineColor": "#38BDF8"}}}%%
 flowchart LR
-    A["🤖 Agents & developers"] --> S["🔒 Sandboxed workflows"]
-    S --> B{"🛡️ Governance & guardrails"}
-    B --> H["⚡ Tenant-scoped semantic cache"]
-    H -->|Cache miss| C["🔀 Dynamic model & provider router"]
+    A["🤖 Agents &<br/>developers"] --> S["🔒 Sandboxed<br/>workflows"]
+    S --> B{"🛡️ Governance<br/>& guardrails"}
+    B --> H["⚡ Tenant-scoped<br/>semantic cache"]
+    H -->|Cache miss| C["🔀 Dynamic router<br/>Models & providers"]
     H -.->|Cache hit| A
-    C -->|Fast & efficient| D["⚡ Lightweight LLMs"]
-    C -->|Complex reasoning| E["🧠 Frontier LLMs"]
-    C -->|On-premises| L["💻 Local LLMs"]
-    B -->|Scoped access| F[("🗄️ Data & vector search")]
-    B -.-> G["📊 Telemetry & audit"]
+    C -->|Fast & efficient| D["⚡ Lightweight<br/>LLMs"]
+    C -->|Complex reasoning| E["🧠 Frontier<br/>LLMs"]
+    C -->|On-premises| L["💻 Local<br/>LLMs"]
+    B -->|Scoped access| F[("🗄️ Data &<br/>vector search")]
+    B -.-> G["📊 Telemetry<br/>& audit"]
     style A fill:#0F172A,stroke:#38BDF8,color:#fff
     style S fill:#1E3A5F,stroke:#38BDF8,color:#fff
     style B fill:#1E3A8A,stroke:#38BDF8,color:#fff
